@@ -21,6 +21,28 @@
    * colors
    */
 
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
@@ -514,11 +536,11 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { margin-bottom: 50px; }
 
 .service-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   gap: 20px;
 }
 
@@ -1726,7 +1748,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* service */
 
   .service-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px 25px;
   }
 
